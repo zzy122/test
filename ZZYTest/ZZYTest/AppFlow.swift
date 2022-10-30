@@ -47,5 +47,4 @@ internal final class AppFlow: Flow {
         _root.pushViewController(viewController, animated: true)
         return FlowContributors.none
     }
-    
 }
