@@ -37,7 +37,7 @@ enum ViewController {
     }
 }
 
-internal final class ViewControllersViewModel: Stepper {
+internal final class ViewControllersViewModel: ViewModel {
     let steps: PublishRelay<Step> = PublishRelay()
     let dataSource: BehaviorRelay<[ViewController]> = BehaviorRelay(value: [.makeUp, .chatList])
 }

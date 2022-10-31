@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F811DE4290F60CF0077E133 /* ShellChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DDF290F60CF0077E133 /* ShellChatListViewController.swift */; };
+		0F811DE5290F60CF0077E133 /* ShellChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F811DE1290F60CF0077E133 /* ShellChatListTableViewCell.xib */; };
+		0F811DE6290F60CF0077E133 /* ShellChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DE2290F60CF0077E133 /* ShellChatListTableViewCell.swift */; };
+		0F811DE7290F60CF0077E133 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DE3290F60CF0077E133 /* UIView+Ext.swift */; };
+		0F811DEC290F60E00077E133 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DE9290F60DF0077E133 /* BaseViewController.swift */; };
+		0F811DED290F60E00077E133 /* BaseViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DEA290F60DF0077E133 /* BaseViewController+Extensions.swift */; };
+		0F811DEE290F60E00077E133 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DEB290F60DF0077E133 /* BaseNavigationController.swift */; };
+		0F811DF1290F660B0077E133 /* RxFlow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */; };
 		0FE31DE1290A28970071F030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31DE0290A28970071F030 /* AppDelegate.swift */; };
 		0FE31DEA290A28990071F030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE31DE9290A28990071F030 /* Assets.xcassets */; };
 		0FE31DED290A28990071F030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE31DEB290A28990071F030 /* LaunchScreen.storyboard */; };
@@ -22,10 +30,6 @@
 		5A1714D3290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1714D1290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift */; };
 		5A1714D4290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1714D2290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib */; };
 		5A1714D6290E40AC000DAFAE /* ShellProfileMakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1714D5290E40AC000DAFAE /* ShellProfileMakeView.swift */; };
-		5A42C401290D11C600C48997 /* ShellChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */; };
-		5A42C402290D11C600C48997 /* ShellChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */; };
-		5A42C404290D135700C48997 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C403290D135700C48997 /* UIView+Ext.swift */; };
-		5A42C406290D189600C48997 /* ShellChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C405290D189600C48997 /* ShellChatListViewController.swift */; };
 		5A42C40C290D29D300C48997 /* ShellMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C40A290D29D300C48997 /* ShellMyProfileViewController.swift */; };
 		5A42C410290D29F700C48997 /* ShellMyProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C40F290D29F700C48997 /* ShellMyProfileHeader.swift */; };
 		5A42C412290D29FE00C48997 /* ShellMyProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C411290D29FE00C48997 /* ShellMyProfileHeader.xib */; };
@@ -36,6 +40,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F811DDF290F60CF0077E133 /* ShellChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellChatListViewController.swift; sourceTree = "<group>"; };
+		0F811DE1290F60CF0077E133 /* ShellChatListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShellChatListTableViewCell.xib; sourceTree = "<group>"; };
+		0F811DE2290F60CF0077E133 /* ShellChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellChatListTableViewCell.swift; sourceTree = "<group>"; };
+		0F811DE3290F60CF0077E133 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		0F811DE9290F60DF0077E133 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0F811DEA290F60DF0077E133 /* BaseViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseViewController+Extensions.swift"; sourceTree = "<group>"; };
+		0F811DEB290F60DF0077E133 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxFlow+Extensions.swift"; sourceTree = "<group>"; };
 		0FE31DDD290A28970071F030 /* ZZYTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE31DE0290A28970071F030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FE31DE9290A28990071F030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,10 +66,6 @@
 		5A1714D1290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProfileMakeCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A1714D2290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellProfileMakeCollectionViewCell.xib; sourceTree = "<group>"; };
 		5A1714D5290E40AC000DAFAE /* ShellProfileMakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProfileMakeView.swift; sourceTree = "<group>"; };
-		5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellChatListTableViewCell.swift; sourceTree = "<group>"; };
-		5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellChatListTableViewCell.xib; sourceTree = "<group>"; };
-		5A42C403290D135700C48997 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
-		5A42C405290D189600C48997 /* ShellChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellChatListViewController.swift; sourceTree = "<group>"; };
 		5A42C40A290D29D300C48997 /* ShellMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellMyProfileViewController.swift; sourceTree = "<group>"; };
 		5A42C40F290D29F700C48997 /* ShellMyProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellMyProfileHeader.swift; sourceTree = "<group>"; };
 		5A42C411290D29FE00C48997 /* ShellMyProfileHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellMyProfileHeader.xib; sourceTree = "<group>"; };
@@ -80,6 +88,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F811DDD290F60CF0077E133 /* chatList */ = {
+			isa = PBXGroup;
+			children = (
+				0F811DDE290F60CF0077E133 /* controller */,
+				0F811DE0290F60CF0077E133 /* view */,
+			);
+			path = chatList;
+			sourceTree = "<group>";
+		};
+		0F811DDE290F60CF0077E133 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F811DDF290F60CF0077E133 /* ShellChatListViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0F811DE0290F60CF0077E133 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0F811DE1290F60CF0077E133 /* ShellChatListTableViewCell.xib */,
+				0F811DE2290F60CF0077E133 /* ShellChatListTableViewCell.swift */,
+				0F811DE3290F60CF0077E133 /* UIView+Ext.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0F811DE8290F60DF0077E133 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0F811DE9290F60DF0077E133 /* BaseViewController.swift */,
+				0F811DEA290F60DF0077E133 /* BaseViewController+Extensions.swift */,
+				0F811DEB290F60DF0077E133 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0F811DEF290F65FA0077E133 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		0FE31DD4290A28970071F030 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +154,12 @@
 		0FE31DDF290A28970071F030 /* ZZYTest */ = {
 			isa = PBXGroup;
 			children = (
-				5A42C408290D29A600C48997 /* Profile */,
-				5A42C3FC290D112A00C48997 /* chatList */,
 				0FE31DE0290A28970071F030 /* AppDelegate.swift */,
 				0FE31E01290A6DAF0071F030 /* AppService.swift */,
 				0FE31E03290A775B0071F030 /* AppFlow.swift */,
 				0FE31E05290A77630071F030 /* AppStep.swift */,
+				0F811DEF290F65FA0077E133 /* Utilities */,
+				0F811DE8290F60DF0077E133 /* Base */,
 				0FE31DF6290A561D0071F030 /* ViewControllers */,
 				0FE31E07290A91E00071F030 /* Businesses */,
 				0FE31DE9290A28990071F030 /* Assets.xcassets */,
@@ -145,6 +198,8 @@
 		0FE31E07290A91E00071F030 /* Businesses */ = {
 			isa = PBXGroup;
 			children = (
+				0F811DDD290F60CF0077E133 /* chatList */,
+				5A42C408290D29A600C48997 /* Profile */,
 				0FE31E08290A91EB0071F030 /* MakeUp */,
 			);
 			path = Businesses;
@@ -173,33 +228,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		5A42C3FC290D112A00C48997 /* chatList */ = {
-			isa = PBXGroup;
-			children = (
-				5A42C3FE290D119100C48997 /* view */,
-				5A42C3FD290D114100C48997 /* controller */,
-			);
-			path = chatList;
-			sourceTree = "<group>";
-		};
-		5A42C3FD290D114100C48997 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				5A42C405290D189600C48997 /* ShellChatListViewController.swift */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		5A42C3FE290D119100C48997 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */,
-				5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */,
-				5A42C403290D135700C48997 /* UIView+Ext.swift */,
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		5A42C408290D29A600C48997 /* Profile */ = {
@@ -313,7 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A42C402290D11C600C48997 /* ShellChatListTableViewCell.xib in Resources */,
+				0F811DE5290F60CF0077E133 /* ShellChatListTableViewCell.xib in Resources */,
 				5A42C41A290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib in Resources */,
 				5A42C412290D29FE00C48997 /* ShellMyProfileHeader.xib in Resources */,
 				0FE31DED290A28990071F030 /* LaunchScreen.storyboard in Resources */,
@@ -372,21 +400,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A42C419290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift in Sources */,
-				5A42C401290D11C600C48997 /* ShellChatListTableViewCell.swift in Sources */,
-				5A42C404290D135700C48997 /* UIView+Ext.swift in Sources */,
 				0FE31DF5290A56010071F030 /* ViewControllers.swift in Sources */,
 				0FE31E04290A775B0071F030 /* AppFlow.swift in Sources */,
+				0F811DE4290F60CF0077E133 /* ShellChatListViewController.swift in Sources */,
 				0FE31DFC290A57690071F030 /* ViewControllersCell.swift in Sources */,
-				5A42C406290D189600C48997 /* ShellChatListViewController.swift in Sources */,
+				0F811DEC290F60E00077E133 /* BaseViewController.swift in Sources */,
+				0F811DF1290F660B0077E133 /* RxFlow+Extensions.swift in Sources */,
+				0F811DED290F60E00077E133 /* BaseViewController+Extensions.swift in Sources */,
 				0FE31E02290A6DAF0071F030 /* AppService.swift in Sources */,
+				0F811DE7290F60CF0077E133 /* UIView+Ext.swift in Sources */,
 				0FE31DF9290A56380071F030 /* ViewControllersViewModel.swift in Sources */,
 				5A1714D3290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift in Sources */,
 				5A1714D6290E40AC000DAFAE /* ShellProfileMakeView.swift in Sources */,
 				0FE31E0D290A92070071F030 /* MakeUpViewModel.swift in Sources */,
+				0F811DE6290F60CF0077E133 /* ShellChatListTableViewCell.swift in Sources */,
 				5A42C410290D29F700C48997 /* ShellMyProfileHeader.swift in Sources */,
 				5A42C40C290D29D300C48997 /* ShellMyProfileViewController.swift in Sources */,
 				5A1714CC290E36D3000DAFAE /* GXWaterfallViewLayout.swift in Sources */,
 				0FE31E06290A77630071F030 /* AppStep.swift in Sources */,
+				0F811DEE290F60E00077E133 /* BaseNavigationController.swift in Sources */,
 				5A42C414290D331700C48997 /* ShellMyProfileView.swift in Sources */,
 				0FE31DE1290A28970071F030 /* AppDelegate.swift in Sources */,
 				0FE31E0A290A91F70071F030 /* MakeUpViewController.swift in Sources */,

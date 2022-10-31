@@ -11,7 +11,7 @@ import RxCocoa
 import RxDataSources
 import GeSwift
 
-internal final class MakeUpViewController: UIViewController {
+internal final class MakeUpViewController: BaseViewController, ViewModelBased {
     
     var viewModel: MakeUpViewModel!
     

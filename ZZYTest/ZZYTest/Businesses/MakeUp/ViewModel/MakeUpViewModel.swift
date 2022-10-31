@@ -10,6 +10,6 @@ import RxFlow
 import RxSwift
 import RxCocoa
 
-internal final class MakeUpViewModel: Stepper {
+internal final class MakeUpViewModel: ViewModel {
     let steps: PublishRelay<Step> = PublishRelay()
 }

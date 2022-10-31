@@ -12,7 +12,7 @@ import RxCocoa
 import RxDataSources
 import GeSwift
 
-internal final class ViewControllers: UIViewController {
+internal final class ViewControllers: BaseViewController, ViewModelBased {
     
     var viewModel: ViewControllersViewModel!
     
@@ -33,6 +33,7 @@ internal final class ViewControllers: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        isBackBarButtonItemEnable = false 
         navigationController?.navigationBar.prefersLargeTitles = true
         title = "HOME"
         
