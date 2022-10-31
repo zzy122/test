@@ -3,3 +3,5 @@
 Pods/
 build/
 DerivedData
+xcuserdata 
+*.lock 

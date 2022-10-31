@@ -11,4 +11,5 @@ import RxFlow
 enum AppStep: Step {
     case viewControllers
     case makeUp
+    case chatList
 }

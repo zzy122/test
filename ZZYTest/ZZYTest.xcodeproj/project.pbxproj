@@ -18,6 +18,20 @@
 		0FE31E06290A77630071F030 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31E05290A77630071F030 /* AppStep.swift */; };
 		0FE31E0A290A91F70071F030 /* MakeUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31E09290A91F70071F030 /* MakeUpViewController.swift */; };
 		0FE31E0D290A92070071F030 /* MakeUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31E0C290A92070071F030 /* MakeUpViewModel.swift */; };
+		5A1714CC290E36D3000DAFAE /* GXWaterfallViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1714CB290E36D3000DAFAE /* GXWaterfallViewLayout.swift */; };
+		5A1714D3290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1714D1290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift */; };
+		5A1714D4290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1714D2290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib */; };
+		5A1714D6290E40AC000DAFAE /* ShellProfileMakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1714D5290E40AC000DAFAE /* ShellProfileMakeView.swift */; };
+		5A42C401290D11C600C48997 /* ShellChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */; };
+		5A42C402290D11C600C48997 /* ShellChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */; };
+		5A42C404290D135700C48997 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C403290D135700C48997 /* UIView+Ext.swift */; };
+		5A42C406290D189600C48997 /* ShellChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C405290D189600C48997 /* ShellChatListViewController.swift */; };
+		5A42C40C290D29D300C48997 /* ShellMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C40A290D29D300C48997 /* ShellMyProfileViewController.swift */; };
+		5A42C410290D29F700C48997 /* ShellMyProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C40F290D29F700C48997 /* ShellMyProfileHeader.swift */; };
+		5A42C412290D29FE00C48997 /* ShellMyProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C411290D29FE00C48997 /* ShellMyProfileHeader.xib */; };
+		5A42C414290D331700C48997 /* ShellMyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C413290D331700C48997 /* ShellMyProfileView.swift */; };
+		5A42C419290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42C417290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift */; };
+		5A42C41A290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A42C418290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib */; };
 		968569952F0D449D0892833F /* Pods_ZZYTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D806E5D737EB422F6CD30EB3 /* Pods_ZZYTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +50,20 @@
 		0FE31E09290A91F70071F030 /* MakeUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpViewController.swift; sourceTree = "<group>"; };
 		0FE31E0C290A92070071F030 /* MakeUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpViewModel.swift; sourceTree = "<group>"; };
 		51D6F05D124FF912DD6337ED /* Pods-ZZYTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZYTest.debug.xcconfig"; path = "Target Support Files/Pods-ZZYTest/Pods-ZZYTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1714CB290E36D3000DAFAE /* GXWaterfallViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GXWaterfallViewLayout.swift; sourceTree = "<group>"; };
+		5A1714D1290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProfileMakeCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A1714D2290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellProfileMakeCollectionViewCell.xib; sourceTree = "<group>"; };
+		5A1714D5290E40AC000DAFAE /* ShellProfileMakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProfileMakeView.swift; sourceTree = "<group>"; };
+		5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellChatListTableViewCell.swift; sourceTree = "<group>"; };
+		5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellChatListTableViewCell.xib; sourceTree = "<group>"; };
+		5A42C403290D135700C48997 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		5A42C405290D189600C48997 /* ShellChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellChatListViewController.swift; sourceTree = "<group>"; };
+		5A42C40A290D29D300C48997 /* ShellMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellMyProfileViewController.swift; sourceTree = "<group>"; };
+		5A42C40F290D29F700C48997 /* ShellMyProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellMyProfileHeader.swift; sourceTree = "<group>"; };
+		5A42C411290D29FE00C48997 /* ShellMyProfileHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellMyProfileHeader.xib; sourceTree = "<group>"; };
+		5A42C413290D331700C48997 /* ShellMyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellMyProfileView.swift; sourceTree = "<group>"; };
+		5A42C417290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProfileCommentTableViewCell.swift; sourceTree = "<group>"; };
+		5A42C418290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShellProfileCommentTableViewCell.xib; sourceTree = "<group>"; };
 		692A645273732FAFEA3ACCC4 /* Pods-ZZYTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZYTest.release.xcconfig"; path = "Target Support Files/Pods-ZZYTest/Pods-ZZYTest.release.xcconfig"; sourceTree = "<group>"; };
 		D806E5D737EB422F6CD30EB3 /* Pods_ZZYTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZYTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +101,8 @@
 		0FE31DDF290A28970071F030 /* ZZYTest */ = {
 			isa = PBXGroup;
 			children = (
+				5A42C408290D29A600C48997 /* Profile */,
+				5A42C3FC290D112A00C48997 /* chatList */,
 				0FE31DE0290A28970071F030 /* AppDelegate.swift */,
 				0FE31E01290A6DAF0071F030 /* AppService.swift */,
 				0FE31E03290A775B0071F030 /* AppFlow.swift */,
@@ -145,6 +175,66 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5A42C3FC290D112A00C48997 /* chatList */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C3FE290D119100C48997 /* view */,
+				5A42C3FD290D114100C48997 /* controller */,
+			);
+			path = chatList;
+			sourceTree = "<group>";
+		};
+		5A42C3FD290D114100C48997 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C405290D189600C48997 /* ShellChatListViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5A42C3FE290D119100C48997 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C3FF290D11C600C48997 /* ShellChatListTableViewCell.swift */,
+				5A42C400290D11C600C48997 /* ShellChatListTableViewCell.xib */,
+				5A42C403290D135700C48997 /* UIView+Ext.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5A42C408290D29A600C48997 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C40E290D29DC00C48997 /* view */,
+				5A42C409290D29BA00C48997 /* controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5A42C409290D29BA00C48997 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C40A290D29D300C48997 /* ShellMyProfileViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5A42C40E290D29DC00C48997 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5A1714CB290E36D3000DAFAE /* GXWaterfallViewLayout.swift */,
+				5A42C40F290D29F700C48997 /* ShellMyProfileHeader.swift */,
+				5A42C411290D29FE00C48997 /* ShellMyProfileHeader.xib */,
+				5A42C413290D331700C48997 /* ShellMyProfileView.swift */,
+				5A42C417290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift */,
+				5A42C418290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib */,
+				5A1714D1290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift */,
+				5A1714D2290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib */,
+				5A1714D5290E40AC000DAFAE /* ShellProfileMakeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		99C3FFC5C644CA4842A91DE5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +281,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = Shell;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
@@ -222,8 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A42C402290D11C600C48997 /* ShellChatListTableViewCell.xib in Resources */,
+				5A42C41A290D7FFE00C48997 /* ShellProfileCommentTableViewCell.xib in Resources */,
+				5A42C412290D29FE00C48997 /* ShellMyProfileHeader.xib in Resources */,
 				0FE31DED290A28990071F030 /* LaunchScreen.storyboard in Resources */,
 				0FE31DEA290A28990071F030 /* Assets.xcassets in Resources */,
+				5A1714D4290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +371,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A42C419290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift in Sources */,
+				5A42C401290D11C600C48997 /* ShellChatListTableViewCell.swift in Sources */,
+				5A42C404290D135700C48997 /* UIView+Ext.swift in Sources */,
 				0FE31DF5290A56010071F030 /* ViewControllers.swift in Sources */,
 				0FE31E04290A775B0071F030 /* AppFlow.swift in Sources */,
 				0FE31DFC290A57690071F030 /* ViewControllersCell.swift in Sources */,
+				5A42C406290D189600C48997 /* ShellChatListViewController.swift in Sources */,
 				0FE31E02290A6DAF0071F030 /* AppService.swift in Sources */,
 				0FE31DF9290A56380071F030 /* ViewControllersViewModel.swift in Sources */,
+				5A1714D3290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift in Sources */,
+				5A1714D6290E40AC000DAFAE /* ShellProfileMakeView.swift in Sources */,
 				0FE31E0D290A92070071F030 /* MakeUpViewModel.swift in Sources */,
+				5A42C410290D29F700C48997 /* ShellMyProfileHeader.swift in Sources */,
+				5A42C40C290D29D300C48997 /* ShellMyProfileViewController.swift in Sources */,
+				5A1714CC290E36D3000DAFAE /* GXWaterfallViewLayout.swift in Sources */,
 				0FE31E06290A77630071F030 /* AppStep.swift in Sources */,
+				5A42C414290D331700C48997 /* ShellMyProfileView.swift in Sources */,
 				0FE31DE1290A28970071F030 /* AppDelegate.swift in Sources */,
 				0FE31E0A290A91F70071F030 /* MakeUpViewController.swift in Sources */,
 			);

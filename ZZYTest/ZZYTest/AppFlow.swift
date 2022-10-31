@@ -20,6 +20,8 @@ internal final class AppFlow: Flow {
             return navigateToViewControllers()
         case .makeUp:
             return navigateToMakeUp()
+        case .chatList:
+            return navigateToChatList()
         }
     }
     
@@ -37,5 +39,11 @@ internal final class AppFlow: Flow {
         viewController.viewModel = viewModel
         _root.pushViewController(viewController, animated: true)
         return .one(flowContributor: .contribute(withNextPresentable: viewController, withNextStepper: viewModel))
+    }
+    private func navigateToChatList() -> FlowContributors {
+//        let viewModel = MakeUpViewModel()
+        let viewController = ShellMyProfileViewController()
+        _root.pushViewController(viewController, animated: true)
+        return FlowContributors.none
     }
 }

@@ -12,4 +12,7 @@ target 'ZZYTest' do
   pod 'RxFlow'
   pod 'SnapKit'
   pod 'GeSwift'
+
+
+  pod 'MGSwipeTableCell'
 end
