@@ -13,7 +13,8 @@ target 'ZZYTest' do
   pod 'SnapKit'
   pod 'GeSwift'
   pod 'WrapNavgiationController'
-
+  pod 'JXSegmentedView'
+  pod 'JXPagingView/Paging'
 
   pod 'MGSwipeTableCell'
 end

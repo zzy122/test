@@ -15,6 +15,12 @@
 		0F811DED290F60E00077E133 /* BaseViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DEA290F60DF0077E133 /* BaseViewController+Extensions.swift */; };
 		0F811DEE290F60E00077E133 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DEB290F60DF0077E133 /* BaseNavigationController.swift */; };
 		0F811DF1290F660B0077E133 /* RxFlow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */; };
+		0F811DF3290F93FE0077E133 /* MakeUpSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF2290F93FE0077E133 /* MakeUpSearchView.swift */; };
+		0F811DF5290F99320077E133 /* MakeUpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF4290F99320077E133 /* MakeUpListViewController.swift */; };
+		0F811DF7290F993D0077E133 /* MakeUpListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF6290F993D0077E133 /* MakeUpListViewModel.swift */; };
+		0F811DF9290F9A350077E133 /* JXSegmentedView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DF8290F9A350077E133 /* JXSegmentedView+Rx.swift */; };
+		0F811DFB290F9EEB0077E133 /* MakeUpListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F811DFA290F9EEB0077E133 /* MakeUpListCell.swift */; };
+		0F811DFD290F9F150077E133 /* MakeUpListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F811DFC290F9F150077E133 /* MakeUpListCell.xib */; };
 		0FE31DE1290A28970071F030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31DE0290A28970071F030 /* AppDelegate.swift */; };
 		0FE31DEA290A28990071F030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE31DE9290A28990071F030 /* Assets.xcassets */; };
 		0FE31DED290A28990071F030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE31DEB290A28990071F030 /* LaunchScreen.storyboard */; };
@@ -48,6 +54,12 @@
 		0F811DEA290F60DF0077E133 /* BaseViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseViewController+Extensions.swift"; sourceTree = "<group>"; };
 		0F811DEB290F60DF0077E133 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxFlow+Extensions.swift"; sourceTree = "<group>"; };
+		0F811DF2290F93FE0077E133 /* MakeUpSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpSearchView.swift; sourceTree = "<group>"; };
+		0F811DF4290F99320077E133 /* MakeUpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpListViewController.swift; sourceTree = "<group>"; };
+		0F811DF6290F993D0077E133 /* MakeUpListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpListViewModel.swift; sourceTree = "<group>"; };
+		0F811DF8290F9A350077E133 /* JXSegmentedView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JXSegmentedView+Rx.swift"; sourceTree = "<group>"; };
+		0F811DFA290F9EEB0077E133 /* MakeUpListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpListCell.swift; sourceTree = "<group>"; };
+		0F811DFC290F9F150077E133 /* MakeUpListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MakeUpListCell.xib; sourceTree = "<group>"; };
 		0FE31DDD290A28970071F030 /* ZZYTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE31DE0290A28970071F030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FE31DE9290A28990071F030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				0F811DF0290F660B0077E133 /* RxFlow+Extensions.swift */,
+				0F811DF8290F9A350077E133 /* JXSegmentedView+Rx.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -211,6 +224,7 @@
 				0FE31E0E290A920B0071F030 /* View */,
 				0FE31E0B290A91FB0071F030 /* ViewModel */,
 				0FE31E09290A91F70071F030 /* MakeUpViewController.swift */,
+				0F811DF4290F99320077E133 /* MakeUpListViewController.swift */,
 			);
 			path = MakeUp;
 			sourceTree = "<group>";
@@ -219,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE31E0C290A92070071F030 /* MakeUpViewModel.swift */,
+				0F811DF6290F993D0077E133 /* MakeUpListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -226,6 +241,9 @@
 		0FE31E0E290A920B0071F030 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0F811DF2290F93FE0077E133 /* MakeUpSearchView.swift */,
+				0F811DFA290F9EEB0077E133 /* MakeUpListCell.swift */,
+				0F811DFC290F9F150077E133 /* MakeUpListCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -347,6 +365,7 @@
 				0FE31DED290A28990071F030 /* LaunchScreen.storyboard in Resources */,
 				0FE31DEA290A28990071F030 /* Assets.xcassets in Resources */,
 				5A1714D4290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.xib in Resources */,
+				0F811DFD290F9F150077E133 /* MakeUpListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +420,12 @@
 			files = (
 				5A42C419290D7FFE00C48997 /* ShellProfileCommentTableViewCell.swift in Sources */,
 				0FE31DF5290A56010071F030 /* ViewControllers.swift in Sources */,
+				0F811DFB290F9EEB0077E133 /* MakeUpListCell.swift in Sources */,
 				0FE31E04290A775B0071F030 /* AppFlow.swift in Sources */,
 				0F811DE4290F60CF0077E133 /* ShellChatListViewController.swift in Sources */,
 				0FE31DFC290A57690071F030 /* ViewControllersCell.swift in Sources */,
 				0F811DEC290F60E00077E133 /* BaseViewController.swift in Sources */,
+				0F811DF9290F9A350077E133 /* JXSegmentedView+Rx.swift in Sources */,
 				0F811DF1290F660B0077E133 /* RxFlow+Extensions.swift in Sources */,
 				0F811DED290F60E00077E133 /* BaseViewController+Extensions.swift in Sources */,
 				0FE31E02290A6DAF0071F030 /* AppService.swift in Sources */,
@@ -412,10 +433,13 @@
 				0FE31DF9290A56380071F030 /* ViewControllersViewModel.swift in Sources */,
 				5A1714D3290E3E4F000DAFAE /* ShellProfileMakeCollectionViewCell.swift in Sources */,
 				5A1714D6290E40AC000DAFAE /* ShellProfileMakeView.swift in Sources */,
+				0F811DF3290F93FE0077E133 /* MakeUpSearchView.swift in Sources */,
 				0FE31E0D290A92070071F030 /* MakeUpViewModel.swift in Sources */,
 				0F811DE6290F60CF0077E133 /* ShellChatListTableViewCell.swift in Sources */,
 				5A42C410290D29F700C48997 /* ShellMyProfileHeader.swift in Sources */,
+				0F811DF7290F993D0077E133 /* MakeUpListViewModel.swift in Sources */,
 				5A42C40C290D29D300C48997 /* ShellMyProfileViewController.swift in Sources */,
+				0F811DF5290F99320077E133 /* MakeUpListViewController.swift in Sources */,
 				5A1714CC290E36D3000DAFAE /* GXWaterfallViewLayout.swift in Sources */,
 				0FE31E06290A77630071F030 /* AppStep.swift in Sources */,
 				0F811DEE290F60E00077E133 /* BaseNavigationController.swift in Sources */,
